@@ -793,7 +793,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>cda9d34c</spirit:value>
+            <spirit:value>abe22b4d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -809,7 +809,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>cda9d34c</spirit:value>
+            <spirit:value>abe22b4d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2247,13 +2247,9 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/aq_axi_sdma64_ls.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>src/aq_axi_sdma64_master.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_c8bf992f</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_ddf9fa5e</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -2276,10 +2272,6 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>src/aq_axi_sdma64_intreg.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/aq_axi_sdma64_ls.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2337,14 +2329,14 @@
       <xilinx:displayName>aq_axi_sdma64_v1_0</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
       <xilinx:coreRevision>1</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2019-12-03T14:34:10Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2019-12-04T05:36:32Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2019.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="281ec80f"/>
       <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="ce8e2912"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="5ccc3619"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="7eafc411"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="5fb0d87f"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="15f3732e"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="31a0cebe"/>
     </xilinx:packagingInfo>

@@ -9,7 +9,6 @@ set FILES [list \
            ../$PROJECT_NAME/src/aq_axi_sdma64_fifo.v \
            ../$PROJECT_NAME/src/aq_axi_sdma64_fifo_rtl.v \
            ../$PROJECT_NAME/src/aq_axi_sdma64_intreg.v \
-           ../$PROJECT_NAME/src/aq_axi_sdma64_ls.v \
            ../$PROJECT_NAME/src/aq_axi_sdma64_master.v \
           ]
 

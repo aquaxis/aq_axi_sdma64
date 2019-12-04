@@ -205,9 +205,9 @@ module tb_aq_axi_sdma64;
       axi_ls_master.wrdata(32'h0000_0008, 32'h0000_000F);
 
       // Start Write DMA
-      axi_ls_master.wrdata(32'h0000_0010, 32'hFF00_0000);
-      axi_ls_master.wrdata(32'h0000_0014, 32'h0000_1000);
-      axi_ls_master.wrdata(32'h0000_000C, 32'h0000_0002);
+      axi_ls_master.wrdata(32'h0000_0014, 32'hFF00_0000);
+      axi_ls_master.wrdata(32'h0000_0018, 32'h0000_1000);
+      axi_ls_master.wrdata(32'h0000_0010, 32'h0000_0001);
 
       for (i = 0; i < 512; i = i + 1) begin
          axis_master.wrdata((64'h0011_2233_0000_0000 | count), 1'b0);
@@ -220,9 +220,9 @@ module tb_aq_axi_sdma64;
       axis_slave.rdenable();
 
       // Start Read DMA
-      axi_ls_master.wrdata(32'h0000_001C, 32'hFF00_0000);
-      axi_ls_master.wrdata(32'h0000_0020, 32'h0000_1000);
-      axi_ls_master.wrdata(32'h0000_0018, 32'h0000_0002);
+      axi_ls_master.wrdata(32'h0000_0024, 32'hFF00_0000);
+      axi_ls_master.wrdata(32'h0000_0028, 32'h0000_1000);
+      axi_ls_master.wrdata(32'h0000_0020, 32'h0000_0001);
 
 
 	  //wait(M_AXI_RLAST);
